@@ -83,4 +83,8 @@ public class UserManager {
         this.userRoleMapper.insert(userRole);
         return systemUser;
     }
+
+    public SystemUser findByMobile(String mobile) {
+        return userMapper.findByMobile(mobile);
+    }
 }

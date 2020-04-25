@@ -26,4 +26,6 @@ public interface UserMapper extends BaseMapper<SystemUser> {
      * @return 数据权限
      */
     List<UserDataPermission> findUserDataPermissions(Long userId);
+
+    SystemUser findByMobile(String mobile);
 }

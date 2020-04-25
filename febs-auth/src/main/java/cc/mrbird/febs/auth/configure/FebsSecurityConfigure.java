@@ -1,5 +1,8 @@
 package cc.mrbird.febs.auth.configure;
 
+import cc.mrbird.febs.auth.service.impl.FebsUserDetailService;
+import cc.mrbird.febs.auth.service.impl.MobileUserDetailsService;
+import cc.mrbird.febs.auth.configure.oauth2.granter.MobileAuthenticationProvider;
 import cc.mrbird.febs.auth.filter.ValidateCodeFilter;
 import cc.mrbird.febs.common.core.entity.constant.EndpointConstant;
 import lombok.RequiredArgsConstructor;
@@ -24,9 +27,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @RequiredArgsConstructor
 public class FebsSecurityConfigure extends WebSecurityConfigurerAdapter {
 
-    private final UserDetailsService userDetailService;
+    private final FebsUserDetailService userDetailService;
     private final ValidateCodeFilter validateCodeFilter;
     private final PasswordEncoder passwordEncoder;
+    private final MobileUserDetailsService mobileDetailsService;
 
     @Bean
     @Override
@@ -49,5 +53,17 @@ public class FebsSecurityConfigure extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailService).passwordEncoder(passwordEncoder);
+        // 设置手机验证码登陆的AuthenticationProvider
+        auth.authenticationProvider(mobileAuthenticationProvider());
+    }
+
+    /**
+     * 创建手机验证码登陆的AuthenticationProvider
+     */
+    @Bean
+    public MobileAuthenticationProvider mobileAuthenticationProvider() {
+        MobileAuthenticationProvider mobileAuthenticationProvider = new MobileAuthenticationProvider(this.mobileDetailsService);
+        mobileAuthenticationProvider.setPasswordEncoder(passwordEncoder);
+        return mobileAuthenticationProvider;
     }
 }

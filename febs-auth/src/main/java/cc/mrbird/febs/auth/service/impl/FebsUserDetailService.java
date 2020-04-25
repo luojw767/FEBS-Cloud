@@ -21,9 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * @author MrBird
  */
-@Service
+@Service("userDetailService")
 @RequiredArgsConstructor
-public class FebsUserDetailServiceImpl implements UserDetailsService {
+public class FebsUserDetailService implements UserDetailsService {
 
     private final PasswordEncoder passwordEncoder;
     private final UserManager userManager;
