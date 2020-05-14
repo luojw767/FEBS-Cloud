@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity.constant;
 /**
  * 端点常量
  *
- * @author MrBird
+ * @author luo
  */
 public class EndpointConstant {
 

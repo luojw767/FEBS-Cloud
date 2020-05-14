@@ -10,7 +10,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 处理排序工具类
  *
- * @author MrBird
+ * @author luo
  */
 public class SortUtil {
     /**

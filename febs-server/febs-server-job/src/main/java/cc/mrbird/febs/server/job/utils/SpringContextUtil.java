@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 用于从 IOC容器中获取 Bean
  *
- * @author MrBird
+ * @author luo
  */
 @Component
 public class SpringContextUtil implements ApplicationContextAware {

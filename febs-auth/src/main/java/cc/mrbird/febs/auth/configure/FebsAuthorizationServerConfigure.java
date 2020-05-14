@@ -31,7 +31,7 @@ import java.util.UUID;
 /**
  * 认证服务器配置
  *
- * @author MrBird
+ * @author luo
  */
 @Configuration
 @EnableAuthorizationServer

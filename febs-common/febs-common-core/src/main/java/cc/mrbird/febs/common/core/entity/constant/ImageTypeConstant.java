@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity.constant;
 /**
  * 图片类型常量类
  *
- * @author MrBird
+ * @author luo
  */
 public class ImageTypeConstant {
 

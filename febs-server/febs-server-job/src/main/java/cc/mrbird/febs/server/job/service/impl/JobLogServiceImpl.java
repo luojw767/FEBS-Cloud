@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Slf4j
 @Service("JobLogService")

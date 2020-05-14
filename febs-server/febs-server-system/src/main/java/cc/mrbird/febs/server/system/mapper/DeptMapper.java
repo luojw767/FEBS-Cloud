@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.system.Dept;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface DeptMapper extends BaseMapper<Dept> {
 

@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.system.TradeLog;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface ITradeLogService extends IService<TradeLog> {
 

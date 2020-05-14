@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * Vue路由 Meta
  *
- * @author MrBird
+ * @author luo
  */
 @Data
 @AllArgsConstructor

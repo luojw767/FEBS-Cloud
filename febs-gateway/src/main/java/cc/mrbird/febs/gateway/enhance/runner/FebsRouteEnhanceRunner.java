@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @RequiredArgsConstructor
 public class FebsRouteEnhanceRunner implements ApplicationRunner {

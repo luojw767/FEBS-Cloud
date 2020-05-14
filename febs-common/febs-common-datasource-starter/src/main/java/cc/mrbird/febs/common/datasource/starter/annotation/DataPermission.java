@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.datasource.starter.annotation;
 import java.lang.annotation.*;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

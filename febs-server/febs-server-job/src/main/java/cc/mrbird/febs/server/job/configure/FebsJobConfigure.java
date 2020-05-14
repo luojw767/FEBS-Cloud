@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  * 定时任务配置
  * http://www.quartz-scheduler.org/documentation/quartz-2.3.0/configuration/
  *
- * @author MrBird
+ * @author luo
  */
 @Configuration
 @RequiredArgsConstructor

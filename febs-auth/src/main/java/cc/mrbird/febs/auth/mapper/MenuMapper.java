@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface MenuMapper extends BaseMapper<Menu> {
 

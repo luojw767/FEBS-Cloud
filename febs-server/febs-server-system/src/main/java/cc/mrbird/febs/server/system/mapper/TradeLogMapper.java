@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.system.TradeLog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface TradeLogMapper extends BaseMapper<TradeLog> {
 }

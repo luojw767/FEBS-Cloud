@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Slf4j
 public class FebsGatewayExceptionHandler extends DefaultErrorWebExceptionHandler {

@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.doc.gateway.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @ConfigurationProperties(prefix = "febs.doc.gateway")
 public class FebsDocGatewayProperties {

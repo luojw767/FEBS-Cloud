@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @EnableAsync
 @SpringBootApplication

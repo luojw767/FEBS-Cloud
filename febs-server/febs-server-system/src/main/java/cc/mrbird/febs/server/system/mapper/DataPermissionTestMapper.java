@@ -5,7 +5,7 @@ import cc.mrbird.febs.common.datasource.starter.annotation.DataPermission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @DataPermission(methods = {"selectPage"})
 public interface DataPermissionTestMapper extends BaseMapper<DataPermissionTest> {

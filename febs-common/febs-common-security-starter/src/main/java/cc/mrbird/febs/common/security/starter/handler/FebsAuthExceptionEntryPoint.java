@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Slf4j
 public class FebsAuthExceptionEntryPoint implements AuthenticationEntryPoint {

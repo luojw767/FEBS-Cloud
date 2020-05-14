@@ -6,7 +6,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @RestControllerAdvice
 @Order(value = Ordered.HIGHEST_PRECEDENCE)

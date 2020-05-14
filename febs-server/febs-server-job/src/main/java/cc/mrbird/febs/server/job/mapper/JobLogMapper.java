@@ -4,7 +4,7 @@ import cc.mrbird.febs.server.job.entity.JobLog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface JobLogMapper extends BaseMapper<JobLog> {
 }

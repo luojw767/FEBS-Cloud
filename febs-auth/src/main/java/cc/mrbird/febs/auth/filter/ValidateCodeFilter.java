@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * 验证码过滤器
  *
- * @author MrBird
+ * @author luo
  */
 @Slf4j
 @Component

@@ -12,7 +12,7 @@ import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface SocialLoginService {
 

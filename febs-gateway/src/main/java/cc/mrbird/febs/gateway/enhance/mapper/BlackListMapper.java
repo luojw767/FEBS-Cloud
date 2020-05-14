@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Repository
 public interface BlackListMapper extends ReactiveMongoRepository<BlackList, String> {

@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity.system;
 import lombok.Data;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Data
 public class Table {

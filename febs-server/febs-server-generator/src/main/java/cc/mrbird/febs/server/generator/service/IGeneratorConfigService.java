@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.system.GeneratorConfig;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface IGeneratorConfigService extends IService<GeneratorConfig> {
 

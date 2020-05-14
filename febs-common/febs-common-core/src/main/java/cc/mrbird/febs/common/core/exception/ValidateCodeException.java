@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.exception;
 /**
  * 验证码类型异常
  *
- * @author MrBird
+ * @author luo
  */
 public class ValidateCodeException extends Exception {
 

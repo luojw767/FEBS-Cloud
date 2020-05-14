@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Import;
 import java.lang.annotation.*;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Component
 public class StartedUpRunner implements ApplicationRunner {

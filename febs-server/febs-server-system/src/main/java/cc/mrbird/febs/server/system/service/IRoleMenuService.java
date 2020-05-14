@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface IRoleMenuService extends IService<RoleMenu> {
 

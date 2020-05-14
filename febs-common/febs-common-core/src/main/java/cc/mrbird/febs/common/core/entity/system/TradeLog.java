@@ -12,7 +12,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Data
 @TableName("t_trade_log")

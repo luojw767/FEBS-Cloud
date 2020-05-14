@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.system.Eximport;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface EximportMapper extends BaseMapper<Eximport> {
 

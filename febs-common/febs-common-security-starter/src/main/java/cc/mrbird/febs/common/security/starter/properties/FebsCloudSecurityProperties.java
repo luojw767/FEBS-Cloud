@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.constant.EndpointConstant;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @ConfigurationProperties(prefix = "febs.cloud.security")
 public class FebsCloudSecurityProperties {

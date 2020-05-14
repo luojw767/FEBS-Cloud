@@ -15,7 +15,7 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 import springfox.documentation.swagger.web.UiConfiguration;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Configuration
 @EnableConfigurationProperties(FebsDocGatewayProperties.class)

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface ILoginLogService extends IService<LoginLog> {
 

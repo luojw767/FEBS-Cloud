@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity.constant;
 /**
  * FEBS系统常量类
  *
- * @author MrBird
+ * @author luo
  */
 public class FebsConstant {
 

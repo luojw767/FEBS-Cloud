@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @FeignClient(value = FebsServerConstant.FEBS_SERVER_SYSTEM, contextId = "tradeLogServiceClient", fallbackFactory = RemoteTradeLogServiceFallback.class)
 public interface IRemoteTradeLogService {

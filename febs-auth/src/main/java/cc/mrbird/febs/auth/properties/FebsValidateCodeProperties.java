@@ -4,7 +4,7 @@ import cc.mrbird.febs.common.core.entity.constant.ImageTypeConstant;
 import lombok.Data;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Data
 public class FebsValidateCodeProperties {

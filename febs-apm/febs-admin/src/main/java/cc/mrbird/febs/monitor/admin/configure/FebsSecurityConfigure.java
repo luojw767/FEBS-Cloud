@@ -9,7 +9,7 @@ import org.springframework.security.web.authentication.SavedRequestAwareAuthenti
 /**
  * WebSecurity配置
  *
- * @author MrBird
+ * @author luo
  */
 @EnableWebSecurity
 public class FebsSecurityConfigure extends WebSecurityConfigurerAdapter {

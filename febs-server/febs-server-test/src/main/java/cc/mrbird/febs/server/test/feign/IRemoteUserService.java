@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @FeignClient(value = FebsServerConstant.FEBS_SERVER_SYSTEM, contextId = "userServiceClient", fallbackFactory = RemoteUserServiceFallback.class)
 public interface IRemoteUserService {

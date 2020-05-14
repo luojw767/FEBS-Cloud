@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface IUserService extends IService<SystemUser> {
 

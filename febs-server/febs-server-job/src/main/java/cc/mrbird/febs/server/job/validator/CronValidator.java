@@ -9,7 +9,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 校验是否为合法的 Cron表达式
  *
- * @author MrBird
+ * @author luo
  */
 public class CronValidator implements ConstraintValidator<IsCron, String> {
 

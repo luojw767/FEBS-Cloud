@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public class FebsAccessDeniedHandler implements AccessDeniedHandler {
 

@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity;
 import java.util.HashMap;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public class FebsResponse extends HashMap<String, Object> {
 

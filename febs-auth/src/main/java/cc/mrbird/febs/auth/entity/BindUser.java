@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Data
 public class BindUser implements Serializable {

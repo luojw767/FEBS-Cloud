@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Component
 public class JwtTokenHelper implements Serializable {

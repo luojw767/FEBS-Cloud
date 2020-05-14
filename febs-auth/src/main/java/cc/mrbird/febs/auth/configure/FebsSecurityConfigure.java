@@ -20,7 +20,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 /**
  * WebSecurity配置
  *
- * @author MrBird
+ * @author luo
  */
 @Order(2)
 @EnableWebSecurity

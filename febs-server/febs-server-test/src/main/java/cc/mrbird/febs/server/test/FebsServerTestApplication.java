@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @EnableFeignClients
 @SpringBootApplication

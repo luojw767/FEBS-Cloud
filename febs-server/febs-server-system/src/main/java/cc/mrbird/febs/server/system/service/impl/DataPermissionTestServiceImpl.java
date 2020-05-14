@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Service
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)

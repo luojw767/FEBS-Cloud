@@ -9,7 +9,7 @@ import lombok.Data;
 import javax.validation.constraints.NotBlank;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Data
 @TableName("t_user_connection")

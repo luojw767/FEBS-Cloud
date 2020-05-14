@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.core.entity.constant;
 /**
  * 正则常量
  *
- * @author MrBird
+ * @author luo
  */
 public class RegexpConstant {
 

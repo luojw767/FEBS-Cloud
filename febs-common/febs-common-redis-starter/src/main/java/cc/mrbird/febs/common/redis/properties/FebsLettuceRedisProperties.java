@@ -3,7 +3,7 @@ package cc.mrbird.febs.common.redis.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @ConfigurationProperties(prefix = "febs.lettuce.redis")
 public class FebsLettuceRedisProperties {

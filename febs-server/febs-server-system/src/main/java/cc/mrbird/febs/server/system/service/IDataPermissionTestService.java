@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface IDataPermissionTestService extends IService<DataPermissionTest> {
     /**

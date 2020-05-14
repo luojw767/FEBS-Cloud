@@ -17,7 +17,7 @@ import org.springframework.web.reactive.result.view.ViewResolver;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Configuration
 @RequiredArgsConstructor

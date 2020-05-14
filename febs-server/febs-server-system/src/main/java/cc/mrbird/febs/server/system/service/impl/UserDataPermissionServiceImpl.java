@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Service("userDataPermissionService")
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)

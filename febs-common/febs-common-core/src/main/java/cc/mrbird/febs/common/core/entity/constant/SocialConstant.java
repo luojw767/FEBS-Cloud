@@ -1,7 +1,7 @@
 package cc.mrbird.febs.common.core.entity.constant;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public class SocialConstant {
 

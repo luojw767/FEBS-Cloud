@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Service("roleMenuService")
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)

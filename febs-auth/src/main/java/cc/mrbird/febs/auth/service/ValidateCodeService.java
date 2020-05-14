@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public interface ValidateCodeService {
 

@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @Service("userDetailService")
 @RequiredArgsConstructor

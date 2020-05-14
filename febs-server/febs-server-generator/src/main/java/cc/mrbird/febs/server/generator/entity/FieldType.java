@@ -1,7 +1,7 @@
 package cc.mrbird.febs.server.generator.entity;
 
 /**
- * @author MrBird
+ * @author luo
  */
 public class FieldType {
 

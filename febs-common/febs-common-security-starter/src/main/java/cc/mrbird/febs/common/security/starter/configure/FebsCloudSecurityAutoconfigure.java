@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.util.Base64Utils;
 
 /**
- * @author MrBird
+ * @author luo
  */
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableConfigurationProperties(FebsCloudSecurityProperties.class)
